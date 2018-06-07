@@ -1,0 +1,8 @@
+src/caffe/layers/cmp_inner_product_layer.cpp: In instantiation of ‘void caffe::CmpInnerProductLayer<Dtype>::LayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/cmp_inner_product_layer.cpp:277:1:   required from here
+src/caffe/layers/cmp_inner_product_layer.cpp:125:8: warning: unused variable ‘mask_data’ [-Wunused-variable]
+   int *mask_data = this->masks_.mutable_cpu_data();
+        ^
+src/caffe/layers/cmp_inner_product_layer.cpp: In instantiation of ‘void caffe::CmpInnerProductLayer<Dtype>::LayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/cmp_inner_product_layer.cpp:277:1:   required from here
+src/caffe/layers/cmp_inner_product_layer.cpp:125:8: warning: unused variable ‘mask_data’ [-Wunused-variable]
